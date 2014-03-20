@@ -21,6 +21,10 @@
 		6C98ECC618DB6CD100FF90A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98ECA818DB6CD100FF90A0 /* UIKit.framework */; };
 		6C98ECCE18DB6CD100FF90A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C98ECCC18DB6CD100FF90A0 /* InfoPlist.strings */; };
 		6C98ECD018DB6CD100FF90A0 /* SimpleChangeImageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C98ECCF18DB6CD100FF90A0 /* SimpleChangeImageExampleTests.m */; };
+		6C98ECDD18DB6D4000FF90A0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C98ECD918DB6D4000FF90A0 /* 2.png */; };
+		6C98ECDE18DB6D4000FF90A0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C98ECDA18DB6D4000FF90A0 /* 4.png */; };
+		6C98ECDF18DB6D4000FF90A0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C98ECDB18DB6D4000FF90A0 /* 3.png */; };
+		6C98ECE018DB6D4000FF90A0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C98ECDC18DB6D4000FF90A0 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		6C98ECCB18DB6CD100FF90A0 /* SimpleChangeImageExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleChangeImageExampleTests-Info.plist"; sourceTree = "<group>"; };
 		6C98ECCD18DB6CD100FF90A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6C98ECCF18DB6CD100FF90A0 /* SimpleChangeImageExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleChangeImageExampleTests.m; sourceTree = "<group>"; };
+		6C98ECD918DB6D4000FF90A0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		6C98ECDA18DB6D4000FF90A0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		6C98ECDB18DB6D4000FF90A0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6C98ECDC18DB6D4000FF90A0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,10 @@
 				6C98ECB918DB6CD100FF90A0 /* ViewController.h */,
 				6C98ECBA18DB6CD100FF90A0 /* ViewController.m */,
 				6C98ECBC18DB6CD100FF90A0 /* Images.xcassets */,
+				6C98ECD918DB6D4000FF90A0 /* 2.png */,
+				6C98ECDA18DB6D4000FF90A0 /* 4.png */,
+				6C98ECDB18DB6D4000FF90A0 /* 3.png */,
+				6C98ECDC18DB6D4000FF90A0 /* 1.png */,
 				6C98ECAB18DB6CD100FF90A0 /* Supporting Files */,
 			);
 			path = SimpleChangeImageExample;
@@ -230,7 +242,11 @@
 			files = (
 				6C98ECBD18DB6CD100FF90A0 /* Images.xcassets in Resources */,
 				6C98ECAF18DB6CD100FF90A0 /* InfoPlist.strings in Resources */,
+				6C98ECDD18DB6D4000FF90A0 /* 2.png in Resources */,
+				6C98ECDF18DB6D4000FF90A0 /* 3.png in Resources */,
+				6C98ECDE18DB6D4000FF90A0 /* 4.png in Resources */,
 				6C98ECB818DB6CD100FF90A0 /* Main.storyboard in Resources */,
+				6C98ECE018DB6D4000FF90A0 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
