@@ -18,31 +18,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
- //   counter = 1;
-	// Do any additional setup after loading the view, typically from a nib.
-    
-    //    [self displayImageWithName:@"1.png"];
-    
-}
+
+    //UIImageView
+    _myImage = [[UIImageView alloc] init];
+    [_myImage setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+
+    }
 
 - (void) displayImageWithName: (NSString*)name{
     
    
     
     if (![name isEqualToString:@"remove"]) {
-        _myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:name]];
-        [_myImage setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-        [self.view addSubview:_myImage];
-    
+        
         NSLog(@"not remove");
+        [_myImage setImage:[UIImage imageNamed:name]];
+        [self.view addSubview:_myImage];
+        
         
     }
     
     if ([name isEqualToString:@"remove"]) {
         
-        _myImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:name]];
-        [_myImage setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-        _myImage = nil;
         [_myImage removeFromSuperview];
 
         NSLog(@"remove");
