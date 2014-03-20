@@ -34,19 +34,15 @@
         NSLog(@"not remove");
         [_myImage setImage:[UIImage imageNamed:name]];
         [self.view addSubview:_myImage];
-        
-        
     }
+    
     
     if ([name isEqualToString:@"remove"]) {
         
         [_myImage removeFromSuperview];
-
         NSLog(@"remove");
-
     }
     
-    // [self.view addSubview:_myImage];
     NSLog(@"counter: %i",counter);
     
 }
@@ -56,6 +52,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 - (IBAction)buttonPressed:(id)sender {
     
@@ -72,14 +69,11 @@
     }
     if (counter == 4) {
         [self displayImageWithName:@"4.png"];
-        
     }
     if (counter > 4) {
         [self displayImageWithName:@"remove"];
-        
         counter = 0;
     }
-    
     
     
 }
